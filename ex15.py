@@ -4,7 +4,7 @@ script,  filename = argv
 
 txt = open(filename, mode='r')
 
-print("Here's your file {%r}:".format(filename))
+print("Here's your file {!r}:".format(filename))
 print(txt.read())
 
 print("Type the filename again:")
