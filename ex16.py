@@ -21,7 +21,9 @@ print("I'm going t write these to the file.")
 
 target.write(line1 + "\n")
 target.write(line2 + "\n")
-target.write(line2 + "\n")
+target.write(line3 + "\n")
 
 print("And finally, we close it.")
 target.close()
+
+# Mistakes: typo.
