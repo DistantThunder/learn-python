@@ -14,6 +14,9 @@ txt_again = open(file_again)
 
 print(txt_again.read())
 
+txt.close()
+txt_again.close()
+
 
 
 #Drills point: may be easier to pass filename as argv while invoking the script
