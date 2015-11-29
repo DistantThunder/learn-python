@@ -26,4 +26,4 @@ from sys import argv
 
 script, from_file, to_file = argv
 
-open(argv[2], 'w').write(open(argv[1]).read())
+with open(argv[1]) as in_file, open(argv[2], 'w') as out_file: out_file.write(in_file.read())
