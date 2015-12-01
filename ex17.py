@@ -27,3 +27,6 @@ from sys import argv
 script, from_file, to_file = argv
 
 with open(argv[1]) as in_file, open(argv[2], 'w') as out_file: out_file.write(in_file.read())
+
+# Drill: We use the .close() method on the file object because unless invoked inside a context and closing
+# when said context disappears, the file will remain open.
