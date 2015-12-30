@@ -21,3 +21,6 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 print("And we can combine the two, variables and math:")
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
+
+print("Eventually, we're even going to ask YOU what to put in the variables:")
+cheese_and_crackers(int(input("How many cheese would you want? ")), int(input("And how many boxes of crackers? ")))
