@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 for i in range(2, 51):
     if not(i % 3) and not(i % 5):
         print("Three + Five")
