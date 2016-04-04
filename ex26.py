@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 import ex25
+
 
 def break_words(words):
     """This function will break up words for us."""
@@ -94,4 +97,3 @@ print(sorted_words)
 
 print_first_and_last(sentence)
 print_first_and_last_sorted(sentence)
-
