@@ -20,7 +20,8 @@ print("First let's print the whole file:\n")
 
 print_all(current_file)
 
-print("Now let's rewind, kind of like a tape.")
+print("Now let's rewind, kind of like a tape. Nothing will be displayed, and this is normal."
+      "\nThis operation takes place in background.")
 
 rewind(current_file)
 
