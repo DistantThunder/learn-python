@@ -18,7 +18,7 @@ print("------------")
 
 
 five = 10 - 2 + 3 - 6
-print("This should be five: {:s}".format(five))
+print("This should be five: {:d}".format(five))
 
 
 def secret_formula(started):
@@ -32,10 +32,10 @@ start_point = 10000
 beans, jars, crates, = secret_formula(start_point)
 
 print("With a starting point of {:d}".format(start_point))
-print("We'd have {:d} beans, {:d} jars, and {:d} crates.".format(beans, jars, crates))
+print("We'd have {:d} beans, {:.0f} jars, and {:.0f} crates.".format(beans, jars, crates))
 
 start_point = start_point / 10
 
 print("We can also do that this way:")
-print("We'd have {:d} beans, {:d} jars, and {:d} crates.".format(secret_formula(start_point)))
+print("We'd have {0[0]:.0f} beans, {0[1]:.0f} jars, and {0[2]:.0f} crates.".format(secret_formula(start_point)))
 
