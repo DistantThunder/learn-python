@@ -12,9 +12,10 @@ and requires an explanation
 \n\t\twhere there is none.
 """
 
-print("------------")
+# Custom try at alignment using format spec
+print("{:^30}".format('-------------'))
 print(poem)
-print("------------")
+print("{:^30}".format('-------------'))
 
 
 five = 10 - 2 + 3 - 6
