@@ -10,7 +10,7 @@ for number in the_count:
 # also we can go through mixed lists too
 # notice we have to use %r since we don't know what's in it
 for i in change:
-    print("I got {%r}".format(i))
+    print("I got {!r}".format(i))
 
 # we can also build lists, first start with an empty one
 elements = []
