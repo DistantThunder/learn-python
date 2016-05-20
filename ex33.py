@@ -7,7 +7,7 @@ while i < 6:
 
     i = i + 1
     print("Numbers now: ", numbers)
-    print("At the bottom i is {}".format(i))
+    print("At the bottom i is {}\n{}".format(i, '-'))
 
 
 print("The numbers: ")
