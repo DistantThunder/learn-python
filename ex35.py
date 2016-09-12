@@ -56,9 +56,11 @@ def cthulhu_room():
     else:
         cthulhu_room()
 
+
 def dead(why):
     print(why, "Good job!")
     exit(0)
+
 
 def start():
     print("You are in a dark room.")
